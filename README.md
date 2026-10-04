@@ -32,7 +32,7 @@ No downloads, no setup.
 2. Copy this whole message, paste it into the chat, and replace the last line with what you need:
 
    ```
-   Read the full file at https://raw.githubusercontent.com/rckycls/better-poster/claude/custom-gpt-poster-designer/better-poster.md and follow it as your instructions for this whole chat.
+   Read the full file at https://raw.githubusercontent.com/rckycls/better-poster/main/better-poster.md and follow it as your instructions for this whole chat.
 
    Here's what I need: a poster for my bakery. Cardamom buns, Saturdays from 8am, 41 Dock St.
    ```
@@ -69,7 +69,7 @@ The most reliable quick option.
 
 Works even if you can't upload files and the link doesn't work.
 
-1. Open the **[raw text of the file](https://raw.githubusercontent.com/rckycls/better-poster/claude/custom-gpt-poster-designer/better-poster.md)**.
+1. Open the **[raw text of the file](https://raw.githubusercontent.com/rckycls/better-poster/main/better-poster.md)**.
 2. Select everything (**Ctrl+A** on Windows, **Cmd+A** on Mac, or long-press and **Select all** on a phone) and copy it (**Ctrl+C** / **Cmd+C**).
 3. Go to **[chatgpt.com](https://chatgpt.com)**, start a **new chat**, and paste it (**Ctrl+V** / **Cmd+V**).
 4. On a new line under the pasted text, write what you need, for example: `Here's what I need: a poster for my bakery…`
@@ -102,7 +102,7 @@ A Project is a folder in ChatGPT with its own instructions. Every chat you start
 This gives you your own "Better Poster" app inside ChatGPT, using the full set of files: more styles, more examples, and a ready-made menu template. Creating it needs a **paid ChatGPT plan** (Plus, Pro, Team or Enterprise), and you need to do it on a **computer**. Once it's made, anyone you share it with can use it, including on the phone app.
 
 **Step 1: Download the files**
-1. Click this link: **[Download all files (ZIP)](https://github.com/rckycls/better-poster/archive/refs/heads/claude/custom-gpt-poster-designer.zip)**
+1. Click this link: **[Download all files (ZIP)](https://github.com/rckycls/better-poster/archive/refs/heads/main.zip)**
 2. Find the ZIP in your Downloads folder and **unzip** it (double-click on Mac; on Windows, right-click → **Extract All**).
 3. Open the unzipped folder, then open the `gpt` folder inside it.
 
@@ -214,4 +214,3 @@ gpt/                     Full version (Method E: Custom GPT)
 - To add or change a style, edit `gpt/knowledge/style-directions.md`. Keep its format (Good for / Type / Palette / Layout / Finish / Prompt fragment / Avoid), add the style to the business map at the bottom, and add a one-line version to `better-poster.md`.
 - Keep `gpt/instructions.md` under 8,000 characters: `wc -c gpt/instructions.md`.
 - After editing knowledge files, re-upload them in the GPT builder and click **Update**.
-- The links in this README point at the `claude/custom-gpt-poster-designer` branch. If you merge into `main`, change `claude/custom-gpt-poster-designer` to `main` in the URLs.
