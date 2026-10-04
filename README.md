@@ -25,7 +25,11 @@ gpt/
     menu-template.html     Print-ready A4 menu template used by the layout route
 ```
 
-## Setup
+## Quickest way: no setup
+
+Download [`better-poster.md`](better-poster.md), attach it to a new ChatGPT chat, and write "Follow this file. Here's what I need: …". It's a condensed one-file version of everything below. You'll need to attach it again in each new chat.
+
+## Setup as a Custom GPT (one-time, then just click it)
 
 1. In ChatGPT, open Explore GPTs → **Create** → **Configure**.
 2. Fill in the fields from [`gpt/config.md`](gpt/config.md).
